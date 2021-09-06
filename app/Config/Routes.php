@@ -37,7 +37,12 @@ $routes->get('/', 'Home::index');
 $myroutes = [];
 $myroutes ['about'] = 'Home::about';
 $myroutes ['contact'] = 'Home::contact';
-$myroutes ['gallery'] = 'Home::gallery';
+$myroutes ['services'] = 'Home::services';
+$myroutes ['ebooks'] = 'Home::ebooks';
+
+$myroutes ['/more/youtube'] = 'More::Youtube';
+$myroutes ['/more/facebook-page'] = 'More::FacebookPage';
+$myroutes ['/more/gallery'] = 'More::Gallery';
 $routes->map($myroutes);
 /*
  * --------------------------------------------------------------------

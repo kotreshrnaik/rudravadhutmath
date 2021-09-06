@@ -19,22 +19,22 @@
                 <div class="row ">
                     <div class="col-md-4 align-self-center">
                         <div class="text-center text-md-start p-1">
-                            <a href="mailto:admin@a2zenglishtips.com"><i class="fas fa-envelope-open-text"></i>  help@rudravadhutmath.com</a>
+                            <a href="mailto:help@rudravadhutmath.com"><i class="fas fa-envelope-open-text"></i>  help@rudravadhutmath.com</a>
                         </div>
                     </div>
                     <div class="col-md-4 align-self-center">
                         <div class="text-center p-1">
-                            <a href="tel:09731564894"><i class="fas fa-phone-volume"></i> +91 99452 57512</a>
+                            <a href="tel:09945257512"><i class="fas fa-phone-volume"></i> +91 99452 57512</a>
                         </div>
                     </div>
                     
                     <div class="col-md-4 align-self-center">
                         <ul class="d-flex list-unstyled mb-0 justify-content-center justify-content-md-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="far fa-address-card"></i> Contact</a>
+                                <a class="nav-link" href="<?=base_url();?>"><i class="far fa-address-card"></i> Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                                <a class="nav-link" href="<?=base_url();?>"><i class="fas fa-sign-in-alt"></i> Login</a>
                             </li>
                         </ul>
                     </div>
@@ -48,7 +48,8 @@
         <!-- navbar starts  -->
         <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
             <div class="container">
-                <a class="navbar-brand" href="<?= base_url(); ?>"> <img src="<?= base_url(); ?>/public/assets/images/logo.png" alt="" class="img-fluid"></a>
+                
+                <a class="navbar-brand" href="<?= base_url(); ?>"> <img src="<?= base_url(); ?>/public/assets/images/logo.png" alt="" class="img-fluid"></a> <h4 class="text-center"><strong>ರುದ್ರಾವಧೂತ ಮಠ <br> ಜಮಖಂಡಿ,ಮುಂಬಯಿ</strong></h4>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -56,18 +57,18 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="<?=base_url();?>">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="<?=base_url();?>/about">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="<?=base_url();?>/services">Services</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#">eBooks</a>
+                            <a class="nav-link" href="<?=base_url();?>/ebooks">eBooks</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="more-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,9 +76,11 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="more-dropdown">
 
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/english-charts">Youtube</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/youtube">Youtube</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/students-doubts">Facebook Page</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/facebook-page">Facebook Page</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/gallery">Gallery</a></li>
                                 
 
                             </ul>
@@ -101,12 +104,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="text-center"><img src="<?= base_url(); ?>/public/assets/images/logo2.png" alt="" class="img-fluid"></div>
+                        <div class="text-center"><img src="<?= base_url(); ?>/public/assets/images/logo.png" alt="" class="img-fluid"></div>
                         <address class="text-center"> 
-                            #485, 10th Cross, 8th Main, 
-                            HAL 3rd Stage, Jeevan Bhima Nagar,
-                            Bengaluru-560075, Karnataka. <br>
-                            P: 097315 64894</address>
+                        Sri Rudravadhut Math,
+                        Rurdraswami peth, Jamkhandi,
+                        Jmakhandi Tq., 
+                            Bagalakot-587301, Karnataka. <br>
+                            P: 0 99452 57512</address>
                     </div>
                     <div class="col-md-3 col-6">
                         <div class="">
@@ -115,25 +119,19 @@
                                 <li><a href="<?= base_url(); ?>">Home</a></li>
                                 <li><a href="<?= base_url(); ?>/about">About</a></li>
                                 <li><a href="<?= base_url(); ?>/contact">Contact</a></li>
-                                <li><a href="<?= base_url(); ?>/blogs">Blogs</a></li>
-                                <li><a href="<?= base_url(); ?>/downloads">Downloads</a></li>
+                                
                                 <li><a href="<?= base_url(); ?>/">eBooks</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
-                        <h2 class="pt-2 pt-2">Online Courses</h2>
+                        <h2 class="pt-2 pt-2">Services</h2>
                         <ul>
                             <li><a href="<?= base_url(); ?>/"></a>Spelling And BasicEnglish Course</li>
                             <li><a href="<?= base_url(); ?>/"></a>English Grammar Course</li>
                             <li><a href="<?= base_url(); ?>/"></a>Spoken English Course</li>
                             <li><a href="<?= base_url(); ?>/"></a>Translation Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Cursive Handwriting Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Objective English Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Jobs Skills Training Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Essay Writing Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Build Your Vocabulary Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Precis Writing Course</li>
+                            
 
                         </ul>
                     </div>

@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/rudravadhutmath';
+	public $baseURL = 'http://rudravadhutmath.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -55,7 +55,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $uriProtocol = 'REQUEST_URI';
+	public $uriProtocol = 'PATH_INFO';
 
 	/**
 	 * --------------------------------------------------------------------------

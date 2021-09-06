@@ -1,8 +1,8 @@
 $primary-color: #F77900;
 $white-color: #fff;
 $black-color: #000;
-$magenta-color: #abadbd;
-$secondary-color: #dddddd;
+$secondary-color: #56BCED;
+$magenta-color: #eb0841;
 
 @mixin button-color {
     color: $white-color;
@@ -62,6 +62,7 @@ $secondary-color: #dddddd;
     
             }
         }
+        
     
         .dropdown-menu {
             background-color: $primary-color;
@@ -79,7 +80,9 @@ $secondary-color: #dddddd;
 
 #navbar {
     background-color: $white-color;
-
+    h4{
+        color: $primary-color;
+    }
     .navbar-brand {
         color: $primary-color;
         font-size: 12px;
@@ -140,4 +143,37 @@ $secondary-color: #dddddd;
         color: $black-color;
     }
     @include book-reading-icon($primary-color, $primary-color, $white-color);
+}
+#learnonlinedaily {
+    background-color: $secondary-color;
+
+    h2 {
+        color: $white-color;
+    }
+    
+    @include book-reading-icon($white-color, $white-color, $primary-color);
+    .small-blog {
+        p {
+            color:$white-color;
+        }
+        .date {
+            color: $white-color;
+        }
+        h5 {
+            color:$white-color;
+        }
+        background-color: $primary-color;
+        border: 1px solid $white-color;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        box-shadow: 2px 3px 8px $white-color;
+        &:hover {
+            transform: rotate(2deg);
+            transition: all .3s ease;
+        }
+    }
+    .custom-button {
+        @include button-outline-color;
+
+    }
 }
