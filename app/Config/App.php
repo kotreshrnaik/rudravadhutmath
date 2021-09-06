@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://rudravadhutmath.com/';
+	public $baseURL = 'http://localhost/rudravadhutmath//';
 
 	/**
 	 * --------------------------------------------------------------------------

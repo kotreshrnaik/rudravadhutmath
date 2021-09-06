@@ -15,7 +15,7 @@ $magenta-color: #eb0841;
 }
 @mixin button-outline-color {
     border:1px solid $magenta-color;
-    color: $primary-color;
+    color: $white-color;
     background-color: $secondary-color;
     &:hover {
         color: $white-color;
@@ -50,30 +50,28 @@ $magenta-color: #eb0841;
 
 
 #top-header {
-    .container {
+    background-color: $primary-color;
+    a {
+        text-decoration: none;
+        color:$white-color;
+        font-size: 14px;
+
+        &:hover {
+            color: $secondary-color;
+
+        }
+    }
+    
+
+    .dropdown-menu {
         background-color: $primary-color;
-        a {
-            text-decoration: none;
-            color:$white-color;
-            font-size: 14px;
-    
+        color:$white-color;
+        z-index: 1080;
+        .dropdown-item {
             &:hover {
-                color: $secondary-color;
-    
+                background-color: $primary-color;
             }
         }
-        
-    
-        .dropdown-menu {
-            background-color: $primary-color;
-            color:$white-color;
-            z-index: 1080;
-            .dropdown-item {
-                &:hover {
-                    background-color: $primary-color;
-                }
-            }
-        } 
     }
 
 }
@@ -151,7 +149,7 @@ $magenta-color: #eb0841;
         color: $white-color;
     }
     
-    @include book-reading-icon($white-color, $white-color, $primary-color);
+    @include book-reading-icon($white-color, $white-color, $secondary-color);
     .small-blog {
         p {
             color:$white-color;
