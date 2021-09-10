@@ -26,10 +26,16 @@
                         <div class="text-center p-1">
                             <a href="tel:09945257512"><i class="fas fa-phone-volume"></i> +91 99452 57512</a>
                         </div>
+                        <div class="text-center p-1">
+                            
+                        </div>
                     </div>
 
                     <div class="col-md-4 align-self-center">
                         <ul class="d-flex list-unstyled mb-0 justify-content-center justify-content-md-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?= base_url(); ?>"><i class="fas fa-globe"></i> Donation</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?= base_url(); ?>"><i class="far fa-address-card"></i> Contact</a>
                             </li>
@@ -124,14 +130,14 @@
                     </div>
                     <div class="col-md-3 col-6">
                         <h2 class="pt-2 pt-2">Services</h2>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="<?= base_url(); ?>/"></a>Spelling And BasicEnglish Course</li>
                             <li><a href="<?= base_url(); ?>/"></a>English Grammar Course</li>
                             <li><a href="<?= base_url(); ?>/"></a>Spoken English Course</li>
                             <li><a href="<?= base_url(); ?>/"></a>Translation Course</li>
 
 
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="col-md-3">
                         <h2 class="pt-2 pb-2 text-center text-md-start">Social Media</h2>
